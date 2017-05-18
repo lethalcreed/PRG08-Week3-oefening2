@@ -18,7 +18,7 @@ class Game {
 
     private updateUI():void{
         document.getElementsByTagName("food")[0].innerHTML = Math.round(this.jibby.food).toString();
-        document.getElementsByTagName("happyness")[0].innerHTML = Math.round(this.jibby.happyness).toString();
+        document.getElementsByTagName("happiness")[0].innerHTML = Math.round(this.jibby.happiness).toString();
         document.getElementsByTagName("hygiene")[0].innerHTML = Math.round(this.jibby.hygiene).toString();
     }
 } 
